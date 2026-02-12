@@ -393,6 +393,87 @@ nav{
     justify-content: space-around;
     margin-top: 100px;
 }
+.last-back-color {
+    margin-top: 100px;
+    width: 100%;
+    background-color: #373737;
+    padding: 50px 0;
+}
+
+.last-all {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 0 auto;
+}
+
+.divv1, .divv2 {
+    flex: 1;
+    padding: 0 20px;
+}
+.divv1 p, .divv2 p, .divv2 h3 {
+    color: white;
+}
+.input-group{
+    margin-top: 20px;
+    display: flex;
+}
+.input-group input{
+    background: transparent;
+    border: 1px solid rgba(255, 83, 0, 1);
+    color: white;
+    padding: 10px;
+}
+.input-group img{
+    padding: 10px 15px;
+    background-color: #FF5100;
+}
+.send-btn {
+    background-color: #FF5100;
+    padding: 10px 20px;
+    width: 30px;
+    cursor: pointer;
+}
+.divv1 p, .mm p {
+    font-size: 14px;
+    line-height: 1.4;
+    width: 100%;
+}
+.divv1 p{
+    width: 90%;
+    font-size: 18px;
+}
+.divv2 h3{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.divv2 p{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.mm p{
+    width: 80%;
+}
+.last-par{
+    text-align: center;
+}
+.footer-back{
+    width:100%;
+    height:60px;
+    background-color: rgba(255, 83, 0, 1);
+}
+.mn{
+    display: flex;
+    justify-content: space-around;
+}
+.last-div{
+    display: flex;
+    align-items: center;
+}
+.last-div p{
+    color: white;
+}
+
 
 
 
@@ -583,5 +664,13 @@ nav{
     .four-photo img{
         width: 20%;
         justify-content: center;
+    }
+    .last-all{
+        flex-direction: column;
+    }
+    .divv1, .divv2{
+        width: 90%;
+        padding: 0 5%;
+        margin-bottom: 10px;
     }
 }
