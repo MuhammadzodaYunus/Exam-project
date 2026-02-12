@@ -158,8 +158,44 @@ nav{
     gap: 30px;
     margin-bottom: 30px;
 }
-
-
+.sector2{
+    margin-top: 100px;
+}
+.sector2 p{
+    color: rgba(123, 123, 123, 1);
+    text-align: center;
+    font-size: 20px;
+    margin-bottom:30px;
+}
+.sector2 h3{
+    text-align: center;
+    font-size: 48px;
+}
+.sector2 h3 span {
+    color: rgba(255, 83, 0, 1);
+    margin-bottom:30px;
+}
+.about-person{
+    width: 270px;
+    height: 350px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.about-person h5{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+.about-person p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.all-four{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
 
 
 
@@ -283,4 +319,15 @@ nav{
         width: 90%;
         margin: auto;
     }
+    .all-four{
+        justify-content: start;
+        overflow: scroll;
+    }
+    .about-person{
+        min-width: 100%;
+        margin-bottom: 50px;
+    }
+    .sector2 h3{
+    font-size: 40px;
+}
 }
